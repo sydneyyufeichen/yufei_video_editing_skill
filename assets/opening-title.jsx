@@ -1,0 +1,3 @@
+const Component=({item})=>{const props=item.props;return <div style={{width:'100%',height:'100%',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',gap:22,padding:8,boxSizing:'border-box',fontFamily:props.font,textAlign:'center'}}>
+<div style={{backgroundColor:props.band,color:props.subtitleColor,borderRadius:18,padding:'17px 24px',fontSize:39,fontWeight:750,lineHeight:1.2,whiteSpace:'nowrap'}}>{props.subtitle}</div>
+<div style={{color:props.titleColor,fontSize:104,fontWeight:850,lineHeight:1.12,letterSpacing:-2,textShadow:'0 5px 1px rgba(0,0,0,.62)'}}>{props.title}</div></div>;};

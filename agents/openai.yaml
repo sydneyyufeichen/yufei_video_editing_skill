@@ -1,0 +1,7 @@
+interface:
+  display_name: "Yufei Video Editing"
+  short_description: "按 Yufei 的固定口播包装规范剪辑视频"
+  brand_color: "#72C4B8"
+  default_prompt: "Use $yufei-video-editing to edit this uploaded talking-head video in my established ChatCut style."
+policy:
+  allow_implicit_invocation: true
